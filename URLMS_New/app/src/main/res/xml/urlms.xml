@@ -1,0 +1,64 @@
+<resources>
+
+<labMa>
+  <directors>
+    <director>
+      <username>admin</username>
+      <password>admin</password>
+      <lab>
+        <labID>1</labID>
+        <name>Lab_1</name>
+        <staffs>
+          <staff>
+            <name>A</name>
+            <role>research_associate</role>
+            <progress>progress_report_A</progress>
+            <payment>1000.0</payment>
+            <travelCost>150.0</travelCost>
+            <staffID>1</staffID>
+            <lab reference="../../.."/>
+          </staff>
+          <staff>
+            <name>B</name>
+            <role>research_associate</role>
+            <progress>progress_report_B</progress>
+            <payment>1000.0</payment>
+            <travelCost>150.0</travelCost>
+            <staffID>2</staffID>
+            <lab reference="../../.."/>
+          </staff>
+          <staff>
+            <name>C</name>
+            <role>research_assistant</role>
+            <progress>progress_report_C</progress>
+            <payment>1000.0</payment>
+            <travelCost>150.0</travelCost>
+            <staffID>3</staffID>
+            <lab reference="../../.."/>
+          </staff>
+          <staff>
+            <name>D</name>
+            <role>research_assistant</role>
+            <progress>progress_report_D</progress>
+            <payment>1000.0</payment>
+            <travelCost>150.0</travelCost>
+            <staffID>4</staffID>
+            <lab reference="../../.."/>
+          </staff>
+        </staffs>
+        <equipment/>
+        <supplies/>
+        <fundAccount>
+          <balance>0.0</balance>
+          <expense>0.0</expense>
+          <lab reference="../.."/>
+        </fundAccount>
+        <director reference="../.."/>
+      </lab>
+    </director>
+  </directors>
+  <labs>
+    <lab reference="../../directors/director/lab"/>
+  </labs>
+</labMa>
+</resources>

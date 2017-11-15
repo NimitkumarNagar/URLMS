@@ -1,0 +1,215 @@
+<labMa>
+  <directors>
+    <director>
+      <username>admin</username>
+      <password>admin</password>
+      <lab>
+        <name>testing_name</name>
+        <staffs>
+          <staff>
+            <type>Staff</type>
+            <name>A</name>
+            <role>research_asistent</role>
+            <progress>40.0</progress>
+            <payment>500.0</payment>
+            <travelCost>100.0</travelCost>
+            <staffID>1</staffID>
+            <lab reference="../../.."/>
+          </staff>
+        </staffs>
+        <equipment>
+          <euip>
+            <type>Equipment</type>
+            <name>PC</name>
+            <equipCost>100.0</equipCost>
+            <equipmentID>1</equipmentID>
+            <lab reference="../../.."/>
+          </euip>
+        </equipment>
+        <supplies>
+          <supply>
+            <type>Supply</type>
+            <name>pen</name>
+            <supCost>10.0</supCost>
+            <supplyID>1</supplyID>
+            <lab reference="../../.."/>
+          </supply>
+        </supplies>
+        <fundAccount>
+          <balance>0.0</balance>
+          <expense>710.0</expense>
+          <lab reference="../.."/>
+        </fundAccount>
+        <director reference="../.."/>
+      </lab>
+      <labManagement reference="../../.."/>
+    </director>
+    <director>
+      <username>admin</username>
+      <password>admin</password>
+      <lab>
+        <name>testing_name</name>
+        <staffs>
+          <staff>
+            <type>Staff</type>
+            <name>A</name>
+            <role>research_asistent</role>
+            <progress>40.0</progress>
+            <payment>500.0</payment>
+            <travelCost>100.0</travelCost>
+            <staffID>1</staffID>
+            <lab reference="../../.."/>
+          </staff>
+        </staffs>
+        <equipment>
+          <euip>
+            <type>Equipment</type>
+            <name>PC</name>
+            <equipCost>100.0</equipCost>
+            <equipmentID>1</equipmentID>
+            <lab reference="../../.."/>
+          </euip>
+          <euip>
+            <type>Equipment</type>
+            <name>laptop</name>
+            <equipCost>100.0</equipCost>
+            <equipmentID>1</equipmentID>
+            <lab reference="../../.."/>
+          </euip>
+        </equipment>
+        <supplies>
+          <supply>
+            <type>Supply</type>
+            <name>pen</name>
+            <supCost>10.0</supCost>
+            <supplyID>1</supplyID>
+            <lab reference="../../.."/>
+          </supply>
+          <supply>
+            <type>Supply</type>
+            <name>eraser</name>
+            <supCost>10.0</supCost>
+            <supplyID>1</supplyID>
+            <lab reference="../../.."/>
+          </supply>
+        </supplies>
+        <fundAccount>
+          <balance>0.0</balance>
+          <expense>820.0</expense>
+          <lab reference="../.."/>
+        </fundAccount>
+        <director reference="../.."/>
+      </lab>
+      <labManagement reference="../../.."/>
+    </director>
+    <director>
+      <username>admin</username>
+      <password>admin</password>
+      <lab>
+        <name>testing_name</name>
+        <staffs>
+          <staff>
+            <type>Staff</type>
+            <name>A</name>
+            <role>research_asistent</role>
+            <progress>40.0</progress>
+            <payment>500.0</payment>
+            <travelCost>100.0</travelCost>
+            <staffID>1</staffID>
+            <lab reference="../../.."/>
+          </staff>
+        </staffs>
+        <equipment>
+          <euip>
+            <type>Equipment</type>
+            <name>PC</name>
+            <equipCost>100.0</equipCost>
+            <equipmentID>1</equipmentID>
+            <lab reference="../../.."/>
+          </euip>
+          <euip>
+            <type>Equipment</type>
+            <name>laptop</name>
+            <equipCost>100.0</equipCost>
+            <equipmentID>1</equipmentID>
+            <lab reference="../../.."/>
+          </euip>
+        </equipment>
+        <supplies>
+          <supply>
+            <type>Supply</type>
+            <name>pen</name>
+            <supCost>10.0</supCost>
+            <supplyID>1</supplyID>
+            <lab reference="../../.."/>
+          </supply>
+        </supplies>
+        <fundAccount>
+          <balance>0.0</balance>
+          <expense>810.0</expense>
+          <lab reference="../.."/>
+        </fundAccount>
+        <director reference="../.."/>
+      </lab>
+      <labManagement reference="../../.."/>
+    </director>
+    <director>
+      <username>admin</username>
+      <password>admin</password>
+      <lab>
+        <name>testing_name</name>
+        <staffs>
+          <staff>
+            <type>Staff</type>
+            <name>A</name>
+            <role>research_asistent</role>
+            <progress>40.0</progress>
+            <payment>500.0</payment>
+            <travelCost>100.0</travelCost>
+            <staffID>1</staffID>
+            <lab reference="../../.."/>
+          </staff>
+        </staffs>
+        <equipment>
+          <euip>
+            <type>Equipment</type>
+            <name>PC</name>
+            <equipCost>100.0</equipCost>
+            <equipmentID>1</equipmentID>
+            <lab reference="../../.."/>
+          </euip>
+          <euip>
+            <type>Equipment</type>
+            <name>laptop</name>
+            <equipCost>100.0</equipCost>
+            <equipmentID>1</equipmentID>
+            <lab reference="../../.."/>
+          </euip>
+        </equipment>
+        <supplies>
+          <supply>
+            <type>Supply</type>
+            <name>pen</name>
+            <supCost>10.0</supCost>
+            <supplyID>1</supplyID>
+            <lab reference="../../.."/>
+          </supply>
+          <supply>
+            <type>Supply</type>
+            <name>eraser</name>
+            <supCost>10.0</supCost>
+            <supplyID>1</supplyID>
+            <lab reference="../../.."/>
+          </supply>
+        </supplies>
+        <fundAccount>
+          <balance>0.0</balance>
+          <expense>820.0</expense>
+          <lab reference="../.."/>
+        </fundAccount>
+        <director reference="../.."/>
+      </lab>
+      <labManagement reference="../../.."/>
+    </director>
+  </directors>
+</labMa>

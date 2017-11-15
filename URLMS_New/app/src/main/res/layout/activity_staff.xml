@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a8100c465cc1f39b1885858aa993e31c"
+    tools:context="com.urlms.urlms_new.Staff.Staff">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="Staff Member"
+        android:textColorHint="@color/cardview_light_background"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/staffMemInfo"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/searchStaffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_toEndOf="@+id/editText3"
+        android:textColor="@color/colorAccent"
+        android:text="Search" />
+
+    <TextView
+        android:id="@+id/staffMemInfo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="33dp"
+        android:background="@color/cardview_light_background"
+
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/staffMemInfo"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/colorAccent"
+        android:text=" Add Staff" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:textColor="@color/colorAccent"
+        android:layout_alignEnd="@+id/staffMemInfo"
+        android:layout_marginEnd="28dp"
+        android:text="Remove Staff" />
+
+</RelativeLayout>
+

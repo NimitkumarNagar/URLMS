@@ -1,0 +1,1 @@
+{"directors":[{"username":"admin","password":"admin","lab":{"name":"testing_name","labID":1,"staffs":[{"name":"A","role":"research_asistent","progress":"work_progress_A","payment":500.0,"travelCost":100.0,"staffID":1}],"equipment":[],"supplies":[],"fundAccount":{"balance":0.0,"expense":0.0}}}]}

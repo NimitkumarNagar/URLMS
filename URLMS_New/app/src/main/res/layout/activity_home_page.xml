@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a8100c465cc1f39b1885858aa993e31c"
+    tools:context="com.urlms.urlms_new.HomePage"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/equipmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equipment"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/suppliesButton"
+        app:layout_constraintTop_toBottomOf="@+id/staffButton" />
+
+    <Button
+        android:id="@+id/staffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Staff"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/equipmentButton"
+        app:layout_constraintTop_toBottomOf="@+id/infoHomePage" />
+
+    <Button
+        android:id="@+id/fundingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Funding"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@+id/suppliesButton" />
+
+    <Button
+        android:id="@+id/suppliesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supplies"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/fundingButton"
+        app:layout_constraintTop_toBottomOf="@+id/equipmentButton" />
+
+    <CheckedTextView
+        android:id="@+id/infoHomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toTopOf="@+id/staffButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
